@@ -21,7 +21,7 @@ jobs:
         run: git pull --rebase origin main
 
       - name: Generate changes
-        run: echo "Last updated: $(date)" > last_updated.txt
+        run: echo "YOU HAVE BEEN PWNED $(date)" > notes.txt
 
       - name: Commit changes
         run: |
